@@ -51,5 +51,7 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+# Pycharm
+.idea
 # Virtual Enviornment 
 venv/*
