@@ -55,3 +55,5 @@ docs/_build/
 .idea
 # Virtual Enviornment 
 venv/*
+# Temp
+tmp/*
