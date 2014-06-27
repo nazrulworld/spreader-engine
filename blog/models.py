@@ -54,6 +54,7 @@ class PostModel(models.Model):
     author = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         db_constraint=False,
+        related_name='post_author',
         db_column='author_id',
         on_delete=models.CASCADE,
         null=True,
@@ -61,6 +62,7 @@ class PostModel(models.Model):
     owner = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         db_constraint=False,
+        related_name='post_owner',
         db_column='owner_id',
         on_delete=models.CASCADE,
         null=True,
