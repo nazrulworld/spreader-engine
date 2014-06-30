@@ -58,3 +58,4 @@ venv/*
 # Temp
 tmp/*
 public/*
+blogenv/*
