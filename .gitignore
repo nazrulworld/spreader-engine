@@ -57,3 +57,5 @@ docs/_build/
 venv/*
 # Temp
 tmp/*
+public/*
+blogenv/*
