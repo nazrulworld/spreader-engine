@@ -76,8 +76,8 @@ class PostModel(models.Model):
         blank=True,
     )
 
-    thumbnail = models.URLField(null=True, blank=False,)
-    uri = models.URLField(null=True, blank=False)
+    thumbnail = models.URLField(null=True, blank=True,)
+    uri = models.URLField(null=True, blank=True)
     general_attributes = models.TextField(serialize=False, null=True, blank=True)
     meta_attributes = models.TextField(serialize=False, null=True, blank=True)
     seo_attributes = models.TextField(serialize=False, null=True, blank=True)
