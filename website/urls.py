@@ -1,6 +1,6 @@
 # _*_ coding: utf-8 _*_
 __author__ = 'nislam <connect2nazrul@gmail.com>'
-from django.conf.urls import (patterns, url)
+from django.conf.urls import (patterns, url, include)
 from .views import *
 urlpatterns = patterns(
     '',

@@ -1,5 +1,8 @@
 from django.contrib import admin
-from blog.models import PostCategoryModel
+import models
 
+admin.site.register(models.PostCategoryModel)
+admin.site.register(models.PostModel)
+admin.site.register(models.CommentModel)
+admin.site.register(models.TagModel)
 
-admin.site.register(PostCategoryModel)
